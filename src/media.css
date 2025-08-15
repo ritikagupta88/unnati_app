@@ -1,0 +1,25 @@
+@media only screen and (min-width:200px) and (max-width: 768px) {
+.hero-section{
+   background-image: none;
+   
+}
+.hero-content h1{
+   text-align: center;
+   margin-top: 150px;
+   margin-left: 0;
+   margin-right: 0;
+   font-weight: 600; 
+   font-size: 80px; 
+}
+.btn-hero-content{
+   padding:30px;
+   font-size: 20px;
+   margin:60px auto;
+   display: block;
+}
+.hero-form{
+   padding-top: 30px;
+}
+
+
+}
