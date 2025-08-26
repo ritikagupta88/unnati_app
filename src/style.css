@@ -9,11 +9,14 @@
   margin: 0 16px;
   font-weight: 600;
   font-size: 17px;
-
+}
+.logo {
+    width: 180px;
+    height: auto;
 }
 .navbar-nav .nav-link:hover {
     color: blue; 
-    text-decoration: underline;   
+    
 }
 .btn-number {
     background-color:rgb(21, 10, 182);
@@ -29,40 +32,38 @@
     background-color: #2f2f30;    
 }
 .hero-section{
-    background-image: url('./images/Background_image.jpeg');
-    height: 110vh;
+    background-image: url('./images/mortage.jpg');
+    height: 100vh;
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 100%;           
+    width: 100%;
+   
 }
 .hero-section::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(246, 248, 249, 0.7); /* black overlay with 50% opacity */
   z-index: 1;
+  background: rgba(255, 255, 255, 0.4); /* White with 50% opacity */
 }
 .hero-content h1{
-    color: rgb(35, 4, 67);
-    font-size: 60px;
+    color: rgb(3, 34, 67);
+    font-size: 45px;
     font-weight: bold;
-    margin-top: 220px;
-    margin-left:100px;
-    margin-right:60px;
+    margin-top: 150px;
+    margin-right: 100px;
     position: relative;
     z-index: 2;
     
 }
 .btn-hero-content{
-    background-color: rgb(178, 191, 230);
+    background-color: rgb(121, 150, 236);
     color: black;
     border: none;
-    padding: 12px 24px;
-    margin: 30px 100px;
     font-size: 16px;
-    font-weight: 550;
-    cursor: pointer;
+   
+    width: 75%;
     z-index: 2;
     position: relative;
 }
@@ -75,7 +76,7 @@
     background-color: rgb(5, 116, 227);
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 10px 20px;
     font-size: 16px;
     font-weight: 550;
     cursor: pointer;
