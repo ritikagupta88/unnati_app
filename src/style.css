@@ -33,6 +33,11 @@
   transition: background-color 0.5s ease, border-color 0.5s ease;
 }
 
+.btn-number a {
+  color: white;
+  text-decoration: none;
+}
+
 .btn-number:hover {
   background-color: #2f2f30;
 }
