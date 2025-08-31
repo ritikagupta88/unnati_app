@@ -1,5 +1,4 @@
-import { InputComponent } from "./InputComponent";
-import { row1 } from "./constants";
+
 
 export const LeadForm = () => {
   return (
@@ -17,21 +16,27 @@ export const LeadForm = () => {
         className="border bg-white rounded-bottom-3 shadow-sm p-3"
       >
         <div className="row">
-          {row1.map((inputObject) => {
-            return (
-              <InputComponent
-                divClassName={inputObject.divClassName}
-                type={inputObject.type}
-                name={inputObject.name}
-                placeholder={inputObject.placeholder}
-                inputClassName={inputObject.inputClassName}
-                required={inputObject.required}
-              />
-            );
-          })}
+          <div className="col-md-6">
+            <input
+              type="text"
+              name="entry.1594329448"
+              placeholder="Name as per Pancard"
+              pattern="^[A-Za-z\s]+$"
+              className="form-control p-2 mb-3 rounded-5"
+              required
+            />
+          </div>
+          <div className="col-md-6">
+            <input
+              type="email"
+              name="entry.2027968812"
+              placeholder="Email"
+              className="form-control mb-3 p-2 rounded-5"
+              required
+            />
+          </div>
         </div>
-
-        <div className="row">
+          <div className="row">
           <div className="col-md-6">
             <input
               type="tel"
