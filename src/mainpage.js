@@ -115,7 +115,7 @@ function Mainpage() {
               </li>
             </ul>
             <button className="btn-number rounded-5 ms-3" type="button">
-              +919540539345
+              <a href="tel:+919540539345">+919540539345</a>
             </button>
           </div>
         </div>
