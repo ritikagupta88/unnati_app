@@ -55,10 +55,10 @@ function Mainpage() {
                   </li>
                 </ul>
                 <a
-                  href="tel:+919540539345"
+                  href="tel:+919214870973"
                   className="btn-number rounded-5 ms-3"
                 >
-                  +919540539345
+                  +919214870973
                 </a>
               </div>
             </div>
@@ -118,10 +118,10 @@ function Mainpage() {
               </li>
             </ul>
             <a
-                  href="tel:+919540539345"
+                  href="tel:+919214870973"
                   className="btn-number rounded-5 ms-3"
                 >
-                  +919540539345
+                  +919214870973
                 </a>
           </div>
         </div>
@@ -163,44 +163,54 @@ function Mainpage() {
       <div className="mobile-only">
         <LeadForm />
       </div>
-      <div className="mx-5 pt-5 working-container">
-        <h2 className="text-center fw-bold mb-3">How It Works</h2>
-        <div className="row align-items-center justify-content-center">
+      <div className="pt-sm-5">
+        <h1 className="text-center fw-bold mb-3">How It Works</h1>
+        < div className="row align-items-center justify-content-center">
           <div
-            style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 col-12 border rounded-2 p-2 text-center position-relative"
+            style={{ width: "20%"}}
+            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative" 
           >
-            Apply for loan
-          </div>
-          <div className="text-center p-0 m-0" style={{ width: "50px" }}>
-            <span style={{ fontSize: "2rem" }}>&rarr;</span>
-          </div>
-          <div
-            style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 col-12 border rounded-2 p-2 text-center position-relative"
-          >
-            Upload Documents
-          </div>
-          <div className="text-center p-0 m-0" style={{ width: "50px" }}>
-            <span style={{ fontSize: "2rem" }}>&rarr;</span>
+            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
+              1
+              </div>
+            <h4 className="fw-bold">Apply for loan</h4>
+            <p className="px-2 py-2">Apply Now with the personal details, and loan amount as well.</p>
           </div>
           <div
             style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 col-12 border rounded-2 p-2 text-center position-relative"
+            className="how-it-works-card col-lg-3 mx-sm2 border rounded-2 p-2 text-center position-relative"
           >
-            Wait for the Approval
+            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
+              2
+              </div>
+            <h4 className="fw-bold">Upload Documents</h4>
+            <p className="px-2 py-2">Upload the necessary documents for verification.</p>
           </div>
-          <div className="text-center p-0 m-0" style={{ width: "50px" }}>
-            <span style={{ fontSize: "2rem" }}>&rarr;</span>
-          </div>
+          
           <div
             style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 col-12 border rounded-2 p-2 text-center position-relative"
+            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative"
           >
-            Loan Disbursed to your Account
+            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
+              3
+              </div>
+            <h4 className="fw-bold">Wait for the Approval</h4>
+            <p className="px-2 py-2">Get the approval in a few minutes shortly.</p>
+          </div>
+          
+          <div
+            style={{ width: "20%" }}
+            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative"
+          >
+            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
+              4
+              </div>
+            <h4 className="fw-bold">Loan Disbursed</h4>
+            <p className="px-2 py-2">Receive the loan amount in your linked account</p>
           </div>
         </div>
       </div>
+     
     </>
   );
 }

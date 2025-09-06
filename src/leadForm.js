@@ -4,7 +4,7 @@ export const LeadForm = () => {
   return (
     <div className="hero-form">
       <h1
-        className="fs-5 p-4 text-white rounded-top-3 shadow-sm mb-0"
+        className="fs-5 p-4 text-white rounded-top-3 shadow-sm mb-0 mx-sm-0 mx-3"
         style={{ backgroundColor: "rgb(21, 10, 182)" }}
       >
         APPLY NOW OR CHECK YOUR LOAN ELIGIBILITY TODAY
@@ -13,7 +13,7 @@ export const LeadForm = () => {
         action="https://docs.google.com/forms/d/e/1FAIpQLSc8LkKC3fepOrafUFVtUk8v409jwmMRXUodZv6FHmxtkbnCfA/formResponse"
         method="POST"
         target="_self"
-        className="border bg-white rounded-bottom-3 shadow-sm p-3"
+        className="border bg-white rounded-bottom-3 shadow-sm p-3 mx-sm-0 mx-3"
       >
         <div className="row">
           <div className="col-md-6">
