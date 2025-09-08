@@ -142,12 +142,7 @@ export const LeadForm = () => {
         required
       ></textarea>
 
-      <label className="form-check-label m-3">
-        <input type="checkbox" name="terms" required />I Agree to the Unnati
-        <span className="text-primary"> "Terms and Conditions" </span>
-        and <span className="text-primary">"Privacy Policy"</span>
-      </label>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-3">
         <button type="submit" className="btn-submit">
         Submit
         </button>
