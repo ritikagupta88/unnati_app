@@ -14,11 +14,11 @@ function Mainpage() {
                 <img
                   src="/unnati_Logo.png"
                   alt="Unnati Logo"
-                  className="logo img-fluid"
+                  className="logo img-fluid ms-2"
                 />
               </a>
               <button
-                className="navbar-toggler"
+                className="navbar-toggler me-3 border-dark px-2"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#MobileMenu"
@@ -29,27 +29,27 @@ function Mainpage() {
               <div className="collapse navbar-collapse justify-content-end">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link mb-3" href="www.google.com">
+                    <a className="nav-link" href="www.google.com">
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mb-3" href="www.google.com">
+                    <a className="nav-link" href="www.google.com">
                       About Us{" "}
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mb-3" href="www.google.com">
+                    <a className="nav-link" href="www.google.com">
                       Repay Loan{" "}
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mb-3" href="www.google.com">
+                    <a className="nav-link" href="www.google.com">
                       FAQ
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link mb-3" href="www.google.com">
+                    <a className="nav-link" href="www.google.com">
                       Contact Us
                     </a>
                   </li>
@@ -74,7 +74,7 @@ function Mainpage() {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="MobileMenuLabel">
-              <a className="navbar-brand ms-2" href="www.google.com">
+              <a className="navbar-brand" href="www.google.com">
                 <img
                   src="/unnati_Logo.png"
                   alt="Unnati Logo"
@@ -92,27 +92,27 @@ function Mainpage() {
           <div className="offcanvas-body">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link mb-3" href="www.google.com">
+                <a className="nav-link mb-1 fs-6" href="www.google.com">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mb-3" href="www.google.com">
+                <a className="nav-link mb-1 fs-6" href="www.google.com">
                   About Us{" "}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mb-3" href="www.google.com">
+                <a className="nav-link mb-1 fs-6" href="www.google.com">
                   Repay Loan{" "}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mb-3" href="www.google.com">
+                <a className="nav-link mb-1 fs-6" href="www.google.com">
                   FAQ
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mb-3" href="www.google.com">
+                <a className="nav-link mb-4 fs-6" href="www.google.com">
                   Contact Us
                 </a>
               </li>
