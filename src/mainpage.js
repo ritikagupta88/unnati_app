@@ -168,7 +168,7 @@ function Mainpage() {
         < div className="row align-items-center justify-content-center">
           <div
             style={{ width: "20%"}}
-            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative" 
+            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative" 
           >
             <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
               1
@@ -178,9 +178,9 @@ function Mainpage() {
           </div>
           <div
             style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm2 border rounded-2 p-2 text-center position-relative"
+            className="how-it-works-card col-lg-3 mx-sm2 border border-dark rounded-2 p-2 text-center position-relative"
           >
-            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
+            <div className=" steps-number rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
               2
               </div>
             <h4 className="fw-bold">Upload Documents</h4>
@@ -189,7 +189,7 @@ function Mainpage() {
           
           <div
             style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative"
+            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative"
           >
             <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
               3
@@ -200,7 +200,7 @@ function Mainpage() {
           
           <div
             style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm-2 border rounded-2 p-2 text-center position-relative"
+            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative"
           >
             <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
               4
