@@ -22,7 +22,7 @@
 }
 
 .btn-number {
-  background-color: rgb(21, 10, 182);
+  background-color: #055861;
   color: white !important;
   text-decoration: none;
   border: none;
@@ -36,57 +36,83 @@
 .btn-number:hover {
   background-color: #2f2f30;
 }
+.banner {
+  background: linear-gradient(to bottom, rgba(24, 23, 23, 0.5), transparent),
+    url("./images/background-image.png") no-repeat center center/cover;
+  padding-top: 2rem;
+  height: 100vh;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: #333 !important;
+  margin: 0 6px !important;
+}
+
+.carousel-indicators .active {
+  background-color: black !important;
+}
+.banner-button .btn1 {
+  background-color: #0cd3e9;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  border: 2px solid #087079ff;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.banner-button .btn2 {
+  background-color: #087079ff;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.carousel-item {
+  padding-top: 5rem;
+}
+.carousel-item img {
+  height: 72vh;
+  margin-bottom: 70px;
+}
 
 .hero-section {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  height: auto;
+  padding-top: 40px;
+  margin-bottom: 4rem;
 }
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("./images/mortage.jpg");
-  background-size: cover;
-  background-position: center;
-  filter: blur(4px);
-  z-index: 0;
-}
-
-.hero-content h1 {
-  color: rgb(18, 4, 80);
-  font-size: 45px;
-  font-weight: bold;
-  margin-top: 120px;
-  margin-right: 50px;
-  position: relative;
-  z-index: 2;
-}
-
-.btn-hero-content {
-  background-color: rgb(121, 150, 236);
+.card:hover {
+  background-color: #09a1ae;
   color: white;
+}
+.card:hover .btn {
+  background-color: white;
+  color: black;
   border: none;
-  font-size: 16px;
-  font-weight: 700;
-  width: 75%;
-  z-index: 2;
-  position: relative;
 }
 
-.hero-form {
-  position: relative;
-  z-index: 2;
-  padding-top: 120px;
-  padding-bottom: 50px;
+.card-title {
+  font-size: 14px;
+}
+
+.card-text {
+  font-size: 12px;
 }
 
 .btn-submit {
-  background-color: rgb(5, 116, 227);
+  background-color: rgb(36, 39, 194);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -97,23 +123,21 @@
 }
 
 .btn-submit:hover {
-  background-color: #0a0aac;
+  background-color: #09096a;
 }
 
-.how-it-works-card:hover {
-  box-shadow: 0 0 10px rgba(21, 10, 182, 0.8);
-  transition: box-shadow 0.2s ease;
-  background-color: rgb(121, 150, 236);
-  color: white;
-  font-weight: bold;
-  font-size: large;
-  text-transform: uppercase;
-}
+@media (max-width: 576px) {
+  .mobile-22-width {
+    width: 22% !important;
+  }
 
-.mobile-only {
-  display: none;
-}
+  .mobile-75-width {
+    width: 75% !important;
+    margin-left: 2.5%;
+  }
 
-.desktop-only {
-  display: block;
+  .mobile-only-flex {
+    display: flex;
+    flex-direction: row;
+  }
 }

@@ -1,12 +1,8 @@
-import "./style.css";
-import "./media.css";
-import { LeadForm } from "./leadForm";
-
-function Mainpage() {
-  return (
-    <>
-      {/* Navbar */}
-      <header className="header">
+export const Navbar = () => {
+    return (
+        <>
+        {/* Navbar Start */}
+        
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
             <div className="container-fluid">
@@ -125,94 +121,7 @@ function Mainpage() {
                 </a>
           </div>
         </div>
-      </header>
-
-      {/* Hero-section */}
-      <div className="hero-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5 col-12">
-              <div className="hero-content text-center">
-                <h1>
-                  Ensure a fast loan <br /> of up to 1 lakh
-                </h1>
-              </div>
-
-              <div className="btn-hero-content p-2 m-4 text-center rounded-3">
-                Instant Approval
-              </div>
-              <div className="btn-hero-content p-2 m-4 text-center rounded-3">
-                Hassle-free application
-              </div>
-              <div className="btn-hero-content p-2 m-4 text-center rounded-3">
-                Competitive Interest
-              </div>
-              <div className="btn-hero-content p-2 m-4 text-center rounded-3">
-                No-Collateral
-              </div>
-            </div>
-
-            {/* form section */}
-            <div className="col-lg-7 col-12 desktop-only">
-              <LeadForm />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mobile-only">
-        <LeadForm />
-      </div>
-      <div className="pt-sm-5">
-        <h1 className="text-center fw-bold mb-3">How It Works</h1>
-        < div className="row align-items-center justify-content-center">
-          <div
-            style={{ width: "20%"}}
-            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative" 
-          >
-            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
-              1
-              </div>
-            <h4 className="fw-bold">Apply for loan</h4>
-            <p className="px-2 py-2">Apply Now with the personal details, and loan amount as well.</p>
-          </div>
-          <div
-            style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm2 border border-dark rounded-2 p-2 text-center position-relative"
-          >
-            <div className=" steps-number rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
-              2
-              </div>
-            <h4 className="fw-bold">Upload Documents</h4>
-            <p className="px-2 py-2">Upload the necessary documents for verification.</p>
-          </div>
-          
-          <div
-            style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative"
-          >
-            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
-              3
-              </div>
-            <h4 className="fw-bold">Wait for the Approval</h4>
-            <p className="px-2 py-2">Get the approval in a few minutes shortly.</p>
-          </div>
-          
-          <div
-            style={{ width: "20%" }}
-            className="how-it-works-card col-lg-3 mx-sm-2 border border-dark rounded-2 p-2 text-center position-relative"
-          >
-            <div className="rounded-5 p-2 mb-2 align-items-center justify-content-center mx-auto bg-dark text-white" style={{width:"50px",height:"50px"}}>
-              4
-              </div>
-            <h4 className="fw-bold">Loan Disbursed</h4>
-            <p className="px-2 py-2">Receive the loan amount in your linked account</p>
-          </div>
-        </div>
-      </div>
-     
-    </>
-  );
+      
+        </>
+    )
 }
-
-export default Mainpage;
