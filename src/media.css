@@ -38,4 +38,17 @@
   .how-it-works-section h2 {
     font-size: 23px;
   }
+  .mobile-22-width {
+    width: 22% !important;
+  }
+
+  .mobile-75-width {
+    width: 75% !important;
+    margin-left: 2.5%;
+  }
+
+  .mobile-only-flex {
+    display: flex;
+    flex-direction: row;
+  }
 }
