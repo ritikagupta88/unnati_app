@@ -6,8 +6,9 @@ import { Working } from "./How_works";
 import { HeroSection } from "./hero-section";
 import { Banner } from "./banner";
 import { Footer } from "./Footer";
-import 'bootstrap-icons/font/bootstrap-icons.css';
-
+import { FaqSection } from "./FAQ";
+import { WhyChooseUs } from "./whyChooseUS";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Mainpage() {
   return (
@@ -16,6 +17,7 @@ function Mainpage() {
       <div className="container-fluid">
         <Navbar />
       </div>
+
       {/* banner section */}
       <Banner />
 
@@ -31,10 +33,23 @@ function Mainpage() {
       >
         <Working />
       </div>
+
       {/* form section */}
       <div className="container-fluid" style={{ backgroundColor: "#cfe3e7ff" }}>
         <LeadForm />
       </div>
+
+      {/* {Faq Section} */}
+      <div className="container-fluid">
+        <FaqSection />
+      </div>
+
+      {/* {why choose us section} */}
+      <div className="container-fluid mb-1" style={{ backgroundColor: "#cfe3e7ff" }}>
+        <WhyChooseUs />
+      </div>
+
+      {/* {footer section} */}
       <div className="">
         <Footer />
       </div>

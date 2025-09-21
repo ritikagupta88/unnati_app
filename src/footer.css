@@ -1,4 +1,4 @@
-/* Shake animation */
+
 @keyframes shake {
   0% {
     transform: rotate(0deg);
@@ -20,12 +20,13 @@
   }
 }
 
-/* Make sure icon is inline-block and animates on hover */
+
 .icon-shake {
-  display: inline-block; /* important */
+  display: inline-block;
   transition: transform 0.2s;
 }
 
 .icon-shake:hover {
   animation: shake 0.5s ease-in-out;
 }
+

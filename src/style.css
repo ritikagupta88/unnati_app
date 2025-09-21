@@ -96,6 +96,10 @@
 .card:hover {
   background-color: #09a1ae;
   color: white;
+  transition: background-color 0.3s ease-in-out, 
+              transform 0.3s ease-in-out, 
+              box-shadow 0.3s ease-in-out;
+               transform: translateY(-8px);
 }
 .card:hover .btn {
   background-color: white;
@@ -127,3 +131,16 @@
 }
 
 
+.whyChooseUsCards {
+  transition: background-color 0.3s ease-in-out, 
+              transform 0.3s ease-in-out, 
+              box-shadow 0.3s ease-in-out;
+  background-color: #ffffff; /* default white */
+}
+
+.whyChooseUsCards:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  color: white;
+  background-color: #09a1ae;; /* smooth transition to light teal */
+}
