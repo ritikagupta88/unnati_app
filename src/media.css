@@ -1,42 +1,54 @@
 @media only screen and (min-width: 200px) and (max-width: 768px) {
-  .mobile-only {
-    display: block;
+  .banner {
+    height: 93vh;
+  }
+  .carousel-item {
+    padding-top: 6rem;
+  }
+  .carousel-item h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .carousel-item img {
+    height: 30vh;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 
-  .desktop-only {
-    display: none;
+  .hero-section {
+    margin-bottom: 1rem;
   }
-  
-
-  .hero-section::before {
-    background-image: none;
-    filter: none;
+  .hero-section h1 {
+    font-size: 24px;
+    font-weight: 600;
   }
-  .hero-content h1 {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: 550;
-    font-size: 40px;
-  }
-  .btn-hero-content {
-    padding: 30px;
-    font-size: 12px;
-    font-weight: bold;
-    width: 85%;
-  }
-  .hero-form {
-    padding-top: 30px;
-  }
-  .hero-form input {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 15px;
+  .hero-section p {
     font-size: 14px;
+    font-weight: 500;
+    margin-bottom: auto;
   }
- .how-it-works-card {
-    width: 80% !important;
-    margin-bottom: 20px;
+
+  .card .btn {
+    margin-top: 10px;
+  }
+
+  .lead-form input {
+    padding: 10px 10px;
+  }
+  .how-it-works-section h2 {
+    font-size: 23px;
+  }
+  .mobile-22-width {
+    width: 22% !important;
+  }
+
+  .mobile-75-width {
+    width: 75% !important;
+    margin-left: 2.5%;
+  }
+
+  .mobile-only-flex {
+    display: flex;
+    flex-direction: row;
   }
 }
