@@ -1,4 +1,4 @@
-import heroImage from "./images/hero-image.png";
+import heroImage from "../images/hero-image.png";
 import { HeroSectionCards } from "./HeroSectionCards";
 export const HeroSection = () => {
   const cardsConfig = [

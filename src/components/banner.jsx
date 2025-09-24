@@ -1,7 +1,7 @@
-import banner1 from "./images/banner-1.png";
-import banner2 from "./images/banner-2.png";
-import banner3 from "./images/banner-3.png";
-import banner4 from "./images/banner-4.png";
+import banner1 from "../images/banner-1.png";
+import banner2 from "../images/banner-2.png";
+import banner3 from "../images/banner-3.png";
+import banner4 from "../images/banner-4.png";
 import { BannerPage } from "./bannerPage";
 export const Banner = () => {
   const buttonsConfig = [
