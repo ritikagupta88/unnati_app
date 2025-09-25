@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <>
-      <div className=" header container">
+      <div className="header container">
         <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               <img
                 src="/unnati_Logo.png"
                 alt="Unnati Logo"
                 className="logo img-fluid ms-2"
               />
-            </a>
+            </Link>
             <button
               className="navbar-toggler me-3 border-dark px-2"
               type="button"
@@ -25,33 +25,49 @@ export const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-end">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <button
+                  <Link
                     className="nav-link btn btn-link"
                     style={{ textDecoration: "none" }}
-                    onClick={() => window.location.href = "/"}
+                    to="/"
                   >
                     Home
-                  </button>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="www.google.com">
-                    About Us{" "}
-                  </a>
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/about"
+                  >
+                    About
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="www.google.com">
-                    Repay Loan{" "}
-                  </a>
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/repay-loan"
+                  >
+                    Repay Loan
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="www.google.com">
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/faq"
+                  >
                     FAQ
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="www.google.com">
+                  <Link
+                    className="nav-link"
+                    style={{ textDecoration: "none" }}
+                    to="/contact"
+                  >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <a href="tel:+919214870973" className="btn-number rounded-5 ms-3">
@@ -69,13 +85,13 @@ export const Navbar = () => {
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="MobileMenuLabel">
-            <a className="navbar-brand" href="www.google.com">
+            <Link className="navbar-brand" to="/">
               <img
                 src="/unnati_Logo.png"
                 alt="Unnati Logo"
                 className="logo img-fluid"
               />
-            </a>
+            </Link>
           </h5>
           <button
             type="button"
@@ -87,29 +103,29 @@ export const Navbar = () => {
         <div className="offcanvas-body">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link mb-1 fs-6" href="www.google.com">
+              <Link className="nav-link mb-1 fs-6" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link mb-1 fs-6" href="www.google.com">
-                About Us{" "}
-              </a>
+              <Link className="nav-link mb-1 fs-6" to="/about">
+                About Us
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link mb-1 fs-6" href="www.google.com">
-                Repay Loan{" "}
-              </a>
+              <Link className="nav-link mb-1 fs-6" to="/repay-loan">
+                Repay Loan
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link mb-1 fs-6" href="www.google.com">
+              <Link className="nav-link mb-1 fs-6" to="/faq">
                 FAQ
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link mb-4 fs-6" href="www.google.com">
+              <Link className="nav-link mb-4 fs-6" to="/contact">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <a href="tel:+919214870973" className="btn-number rounded-5 ms-3">

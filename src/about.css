@@ -1,0 +1,128 @@
+.about-page {
+  padding: 2rem 1rem;
+  line-height: 1.6;
+  color: rgb(79, 74, 74);
+}
+
+/* Headings */
+.about-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-page h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Paragraphs & lists */
+.about-page p,
+.about-page li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-page ul {
+  padding-left: 1.25rem;
+}
+
+/* Contact section */
+.contact-us a {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-us a:hover {
+  transform: scale(1.05);
+  color: #ffc107;
+}
+
+/* Icon animations */
+.icon-shake {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.icon-shake:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+.icon-pop {
+  display: inline-block;
+  transition: transform 0.3s, color 0.3s;
+}
+.icon-pop:hover {
+  transform: scale(2);
+  color: #ffc107;
+}
+
+/* Shake keyframes */
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 1.5rem 1rem;
+  }
+
+  .about-page h1 {
+    font-size: 2rem;
+  }
+
+  .about-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-page p,
+  .about-page li {
+    font-size: 0.95rem;
+  }
+
+  .contact-us a {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .about-page h2 {
+    font-size: 1.25rem;
+  }
+
+  .about-page p,
+  .about-page li {
+    font-size: 0.9rem;
+  }
+
+  .contact-us a {
+    font-size: 0.95rem;
+  }
+}
