@@ -1,8 +1,8 @@
-import working from "./images/working.png";
-import checkElegibility from "./images/speed.svg";
-import details from "./images/support.svg";
-import submit from "./images/submitdoc.svg";
-import Approval from "./images/approval.svg";
+import working from "../images/working.png";
+import checkElegibility from "../images/speed.svg";
+import details from "../images/support.svg";
+import submit from "../images/submitdoc.svg";
+import Approval from "../images/approval.svg";
 import { HowItWorksCards } from "./HowItWorksCards";
 
 export const Working = () => {

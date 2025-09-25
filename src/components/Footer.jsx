@@ -1,4 +1,4 @@
-import "./footer.css";
+import "../footer.css";
 
 export const Footer = () => {
   return (
@@ -8,16 +8,15 @@ export const Footer = () => {
           {/* About Section */}
           <div className="col-md-4 col-12 mb-4">
             <h5 className="fw-bold">Unnati Credit Services</h5>
-            <p>
-              Your trusted partner for short-term personal loans. Quick,
-              reliable, and easy.
+            <p className="pe-5"style={{fontSize:"12px"}}>
+              It is a trusted financial solutions provider dedicated to helping individuals meet their short-term and long-term financial needs. We specialize in offering quick, reliable, and transparent loan services that are designed to provide immediate financial relief without unnecessary hassles.
             </p>
           </div>
 
           {/* Links Section */}
-          <div className="col-md-4 col-12 mb-4">
+          <div className="col-md-4 col-12 mb-4 ps-5">
             <h5 className="fw-bold">Quick Links</h5>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled"style={{fontSize:"14px"}}>
               <li>
                 <a href="#" className="text-white text-decoration-none">
                   Home

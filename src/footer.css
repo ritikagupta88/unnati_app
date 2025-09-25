@@ -1,4 +1,3 @@
-/* Shake animation */
 @keyframes shake {
   0% {
     transform: rotate(0deg);
@@ -20,12 +19,32 @@
   }
 }
 
-/* Make sure icon is inline-block and animates on hover */
 .icon-shake {
-  display: inline-block; /* important */
-  transition: transform 0.2s;
+  display: inline-block;
+  transition: transform 0.4s;
 }
 
 .icon-shake:hover {
   animation: shake 0.5s ease-in-out;
+}
+
+@keyframes icon-pop {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.icon-pop {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-pop:hover {
+  transform: scale(2);
+  color: #ffcc00; /* pick your highlight color */
 }

@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+body {
+  overflow-y: auto;
+}
+
 .navbar-nav .nav-link {
   color: black;
   margin: 10px 16px;
@@ -96,6 +100,9 @@
 .card:hover {
   background-color: #09a1ae;
   color: white;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  transform: translateY(-8px);
 }
 .card:hover .btn {
   background-color: white;
@@ -126,4 +133,56 @@
   background-color: #09096a;
 }
 
+.whyChooseUsCards {
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  background-color: #ffffff; /* default white */
+}
 
+.whyChooseUsCards:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  color: white;
+  background-color: #09a1ae; /* smooth transition to light teal */
+}
+
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 40px;
+  border-left: 3px solid #0d6efd; /* Bootstrap primary blue */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -22px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-content {
+  margin-left: 20px;
+  padding: 10px 15px;
+  background: #f8f9fa; /* light gray background */
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h4 {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+  color: #0d6efd;
+}

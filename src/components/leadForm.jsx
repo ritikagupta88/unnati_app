@@ -12,13 +12,6 @@ export const LeadForm = () => {
       className="lead-form container"
       style={{ paddingTop: "40px", paddingBottom: "40px" }}
     >
-      {/* <h1
-        className="fs-4 p-3 text-white rounded-top-3 shadow-sm mb-0 mx-sm-0 mx-3 text-center fw-bold"
-        style={{ backgroundColor: "#055861" }}
-      >
-        CHECK YOUR LOAN ELIGIBILITY
-      </h1> */}
-
       <Typography
         className="fs-4 p-3 text-white rounded-top-1 shadow-lg mb-0 mx-sm-0 mx-3 text-center "
         sx={{ backgroundColor: "#11aabbff" }}

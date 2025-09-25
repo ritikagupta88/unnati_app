@@ -1,7 +1,7 @@
-import banner1 from "./images/banner-1.png";
-import banner2 from "./images/banner-2.png";
-import banner3 from "./images/banner-3.png";
-import banner4 from "./images/banner-4.png";
+import banner1 from "../images/banner-1.png";
+import banner2 from "../images/banner-2.png";
+import banner3 from "../images/banner-3.png";
+import banner4 from "../images/banner-4.png";
 import { BannerPage } from "./bannerPage";
 export const Banner = () => {
   const buttonsConfig = [
@@ -50,7 +50,6 @@ export const Banner = () => {
           id="carouselExampleIndicators"
           className="carousel slide"
           data-bs-ride="carousel"
-          
         >
           <div className="carousel-indicators">
             {buttonsConfig.map((button) => {
@@ -69,7 +68,7 @@ export const Banner = () => {
           </div>
 
           <div className="carousel-inner">
-             <BannerPage
+            <BannerPage
               title="Gateway to an Exceptional Borrowing Experience"
               description="Step into a seamless and exceptional borrowing journey."
               button1Text="Contact Us"
@@ -100,7 +99,7 @@ export const Banner = () => {
               bannerImageUrl={banner3}
               activeState={false}
             />
-           
+
             <BannerPage
               title="Smart Financing for All Your Shopping Needs"
               description="Get instant funds and enjoy hassle-free shopping anytime"
@@ -111,8 +110,6 @@ export const Banner = () => {
               bannerImageUrl={banner2}
               activeState={false}
             />
-
-            
           </div>
         </div>
       </div>
